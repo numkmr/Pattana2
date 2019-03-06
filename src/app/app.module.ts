@@ -24,6 +24,7 @@ import { CalendarModule } from 'ion2-calendar';
 import { TestapiProvider } from '../providers/testapi/testapi';
 import { UsernameValidator } from '../providers/username/username';
 import { PasswordProvider } from '../providers/password/password';
+import { NotiPage } from '../pages/noti/noti';
 import { HttpClientModule } from '@angular/common/http';
 
 
@@ -42,7 +43,8 @@ import { HttpClientModule } from '@angular/common/http';
     QuizPage,
     RankPage,
     CardPage,
-    CountPage
+    CountPage,
+    NotiPage
   ],
   imports: [
     BrowserModule,
@@ -65,7 +67,8 @@ import { HttpClientModule } from '@angular/common/http';
     QuizPage,
     RankPage,
     CardPage,
-    CountPage
+    CountPage,
+    NotiPage
   ],
   providers: [
     StatusBar,

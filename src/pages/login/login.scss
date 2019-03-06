@@ -5,6 +5,20 @@ page-login {
         background-size: cover;
         
     }
+
+    .item-inner {
+        border-bottom-color: transparent !important;
+        box-shadow: none !important;
+        }
+
+    form{
+        border-bottom-color: transparent !important;
+        box-shadow: none !important;
+    }
+    ion-item{
+        border-bottom-color: transparent !important;
+        box-shadow: none !important;
+    }
     
 
     p {
